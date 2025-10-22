@@ -1,6 +1,6 @@
 import unittest
 
-# функция сортировки слиянием
+
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -23,7 +23,7 @@ def merge(left, right):
     result.extend(right[j:])
     return result
 
-# тесты
+
 class TestMergeSort(unittest.TestCase):
 
     def test_empty_list(self):
